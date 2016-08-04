@@ -1,0 +1,74 @@
+.inhalt {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+    background: linear-gradient(to bottom , #394c4f, #445a5e); 
+    color: white;
+}
+
+.active {
+    background-color: #11283b;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-image: url(../images/Berge_und_See2.jpg);
+    color: #11283b;
+}
+.jumbotron#indexpagejumbotron{
+  background: linear-gradient(to bottom right, #006ccf, #86b8ee);  
+}
+#Indexheading{
+ color: #86b8ee;   
+}
+
+footer {
+    background: linear-gradient(to bottom , #445a5e, #394c4f); 
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+}
+
+a {
+    color: #86b8ee;
+}
+
+.profilbild {
+    border-radius: 1000px;
+}
+
+p {
+    font-size: 16px;
+}
+h1{
+    margin-bottom: 25px;
+}
+
+.blogvorschau {
+    border: 2px #394c4f;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #837e74;
+    background: linear-gradient(to bottom right, #837e74, #b3b1aa);
+    height: 30vh;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.content-background {
+    background-image: url(../images/Berge_und_See_gro%C3%9F.jpg)
+}
+
+
+img {
+    margin-bottom: 20px;
+}
