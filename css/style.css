@@ -35,6 +35,13 @@ footer {
 nav a {
     color: white;
 }
+.navbar-toggle .icon-bar {
+  background-color:  #86b8ee;
+}
+
+.navbar-toggle {
+   background-color: black;
+}
 
 a {
     color: #86b8ee;
@@ -51,17 +58,31 @@ h1{
     margin-bottom: 25px;
 }
 
+.blogAbschnitt{
+    display: block;
+}
+
+@media only screen and (min-width: 992px) {
+    .blogAbschnitt{
+        display: flex;
+    }
+}
+
 .blogvorschau {
+    flex: 1;
     border: 2px #394c4f;
     border-radius: 10px;
+    padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
     background-color: #837e74;
     background: linear-gradient(to bottom right, #837e74, #b3b1aa);
-    height: 50vh;
-    margin-bottom: 40px;
-    margin-top: 20px;
+/*    height: 450px;*/
+   margin-bottom: 40px;
+   margin-top: 20px;
+   margin-left: 3%;
+   margin-right: 3%;
 }
 
 .content-background {
